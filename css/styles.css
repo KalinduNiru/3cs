@@ -10445,6 +10445,13 @@ p {
   margin-bottom: 4rem;
 }
 
+.main-paragraph {
+  font-size: 1.3rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 @media (min-width: 768px) {
   section {
     padding: 9rem 0;
@@ -10456,7 +10463,7 @@ p {
 }
 
 ::selection {
-  background: teal;
+  background: rgb(0, 200, 20);
   text-shadow: none;
 }
 
@@ -10572,7 +10579,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/main_image.jpg");
+  background-image: url("../assets/img/main_image02.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10593,6 +10600,7 @@ header.masthead .masthead-heading {
   line-height: 3.25rem;
   margin-bottom: 2rem;
   font-family: "Titillium Web", sans-serif;
+  color: navy;
 }
 
 @media (min-width: 768px) {
@@ -10611,6 +10619,7 @@ header.masthead .masthead-heading {
     font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: 4rem;
+    color: navy;
   }
 }
 #portfolio .portfolio-item {
