@@ -10603,6 +10603,17 @@ header.masthead .masthead-heading {
   color: navy;
 }
 
+header.masthead-404 {
+  padding-top: 68.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/404/404image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 17rem;
